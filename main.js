@@ -55,12 +55,12 @@ function start(){
 
             button.onclick = function(qwe){
                 var currButton = qwe.target;
-                console.log(currButton.id);
+                //console.log(currButton.id);
                 var currUrl = prompt('请给我一个网址:');
                 var imgTemp = currButton.previousSibling;
                 var buttonId = currButton.id;
                 if(currUrl === null){
-                    console.log("there gone?")
+
                 }else if(currUrl){
                     imgTemp.src = 'http://' + currUrl + '/favicon.ico';
                 }else{
