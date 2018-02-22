@@ -91,5 +91,14 @@ function start(){
         window.open('http://'+website, '_blank');
     }
 
+   var kbd = document.querySelectorAll("kbd")
+   kbd.forEach((item) => {
+    item.onclick = function(){
+        let arg = item.innerText.slice(0, 1).toLowerCase();
+        var website = hash[arg];
+        window.open('http://'+website, '_blank');
+    }
+   })
+   
 }
 

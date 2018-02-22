@@ -15,23 +15,6 @@ body{
     display: block;
 }
 
-header .triangle{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 0px;
-    width: 0px;
-    border-top: 20px solid rgba(255,255,255,0.4);
-    border-left: 20px solid transparent;
-    transition-duration: 1s;
-}
-
-
-header .triangle:hover{
-    width: 200px;
-    height: 10px;
-
-}
 
 .wrapper{
     padding-top: 10px;
@@ -40,7 +23,7 @@ header .triangle:hover{
     background: rgba(255,255,255,0.4);
     border-radius: 10px;
     width: 800px;
-    margin: 190px auto;
+    margin: 220px auto;
 }
 
 .wrapper .row{
@@ -80,7 +63,6 @@ header .triangle:hover{
 
 .wrapper .row .key button{
     font-weight: bold;
-
     border-radius: 5px;
     position: absolute;
     right: 0;
